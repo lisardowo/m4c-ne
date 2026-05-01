@@ -1,5 +1,6 @@
 
 # ⬢ m4c-ne | Infrastructure Archive
+
 > "Your desire to remain what you are is what ultimately limits you"
 
 Technical documentation of my home server + pentesting lab. This repo details the  architecture, deployment and protection of my infrastructure. 
@@ -14,7 +15,8 @@ m4c-ne is a project born to fulfill my necessity of calm, for me to trust my sys
 - **Reliability** : The system shall operate 24/7, regardless of hardware or software constraints. Every change is rigorously tested, and I do not leave the chair until I am 100% certain of the system's integrity.
 - **Observability** : Each single bit that is being processed by the machine shall be easily monitored either by proxmox UI or directly into a server display.
 
-## Directory Structure
+## The components
+
 - [Hardware](hardware/Hardware.md) - Physical specs & resource allocation.
 - [Network](network/Network.md) - Topology, VLANs & Firewall rules.
 - [Core](core/Core.md) - Hypervisor configuration & Hardening.
@@ -23,10 +25,15 @@ m4c-ne is a project born to fulfill my necessity of calm, for me to trust my sys
 - [PentestingLab](pentestingLab/PentestingLab.md) - Isolated arenas & target inventory.
 - [Maintenance](maintenance/Maintenance.md) - Backup logs & health checks.
 
+## The archive
+
+─────────────────────────────────────────────────────────── ⬡
+
 ### Disclaimer 
 
 **The documentation of some modules in the environment will contain strong hacking principles, I do not take responsibility of malicious use of whatever knowledge is acquired exploring the project**
 
+|─────────────────────────────────────────────────────────── ⬡
 
 ## A sneak peek of Tech Stack 
 
@@ -46,5 +53,5 @@ m4c-ne is a project born to fulfill my necessity of calm, for me to trust my sys
 ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
----
-## *Status: In maintenance*
+
+## *[ STATUS: In maintenance ]──╼*
